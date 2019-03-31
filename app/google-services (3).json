@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "202367530694",
+    "firebase_url": "https://hackethon-30af1.firebaseio.com",
+    "project_id": "hackethon-30af1",
+    "storage_bucket": "hackethon-30af1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202367530694:android:ec660573d52bcd5a",
+        "android_client_info": {
+          "package_name": "com.example.indreshprakash.testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202367530694-esqt4mdqgv0l3n9kr6753jovgn08th1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkWaoePZVJXfGseM3jEX21HvE-OyVmPRg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

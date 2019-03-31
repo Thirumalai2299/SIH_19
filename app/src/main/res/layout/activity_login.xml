@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#131A56"
+        android:fitsSystemWindows="true"
+        tools:context="com.example.indreshprakash.testing.login1">
+
+        <com.example.indreshprakash.testing.FlexibleFrameLayout
+            android:id="@+id/wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <FrameLayout
+                android:id="@+id/sign_up_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.example.indreshprakash.testing.login.LoginButton
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bubble"
+                android:onClick="switchFragment" />
+
+            <FrameLayout
+                android:id="@+id/login_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.example.indreshprakash.testing.FlexibleFrameLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+</layout>
